@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
+@import url("styles/tópicos.css");
+@import url("styles/contatos.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor--fundo: #EBECEE;
+    --cor: #FFFFFF;
+    --laranja: #EB9B00;
+    --fonte: "poppins";
+    --azul: #002F52;
+    --secundaria:"Josefin Sans";
+    --cinza: #474646;
+}
+
+
+body {
+    background-color: var(--cor--fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
